@@ -3,11 +3,10 @@
 #  ***
 # *****
 #*******
-#  *****
-#   ***
-#    *
+# *****
+#  ***
+#   *
 
-space = " "
 counter = 3
 
 8.times do |rows|
@@ -27,4 +26,29 @@ counter = 3
    
   end
 end
-    
+   
+#Authors Solution. Note: Wrong size of diamond
+# 15.times do |row|
+#  if row < 8
+#   star_count = row * 2 + 1
+#   space_count = 8 - row
+#  else
+#   star_count = (15 - row) * 2 - 1
+#   space_count = row - 6
+#  end
+#  puts ' ' * space_count + '*' * star_count
+# end
+
+   
+
+#Modified Authors Solution to fit size of diamond
+# 7.times do |row|
+#  if row < 4
+#   star_count = row * 2 + 1
+#   space_count = 4 - row
+#  else
+#   star_count = (7 - row) * 2 - 1
+#   space_count = row - 2
+#  end
+#   puts ' ' * space_count + '*' * star_count
+# end
