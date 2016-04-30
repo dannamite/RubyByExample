@@ -11,10 +11,12 @@
 # Correct! You guessed 3 times.
 
 secret_num = rand(10)
-num_guesses = 0
+
 
 puts "I have a secret number (0 - 9), Can you guess it? "
 input = gets.chomp.to_i
+
+num_guesses = 1
 
 until input == secret_num
  puts "You typed #{input}"
@@ -30,6 +32,5 @@ until input == secret_num
  input = gets.chomp.to_i
   
 end
-
 
 puts "Correct! You guessed #{num_guesses} times"
