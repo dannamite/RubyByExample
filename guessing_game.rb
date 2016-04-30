@@ -34,3 +34,20 @@ until input == secret_num
 end
 
 puts "Correct! You guessed #{num_guesses} times"
+
+#Authors Solution for another perspective
+# puts "I have a secret number (0-9) Can you guess it?"
+# count = 0
+# the_secret_number = rand(10)
+# while input = gets.chomp.to_i
+# count += 1
+#   if input > the_secret_number
+#   puts "TOO BIG"
+# elsif input < the_secret_number
+#   puts "too small"
+# else
+#   puts "CORRECT"
+#   break
+# end
+# end
+# puts "The number is : #{the_secret_number}. and you guessed #{count} times!!"
