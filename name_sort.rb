@@ -12,6 +12,19 @@ until input == "0"
   end
   input = gets.chomp
 end
-
+puts "Names sorted in order"
 puts name_array.sort
 
+
+#Authors Solution added for another perspective
+# array = []
+# input = nil
+# puts "Enter child names in class: (0 to finish)"
+# until input == "0"
+#   input = gets.chomp
+#   if input != "0"
+#     array << input
+#   end
+# end
+# puts "Kids in order:"
+# puts array.sort.join(", ")
