@@ -11,7 +11,7 @@ num_array = num_array.sort
 even = num_array.length / 2
 median = 0.0
 
-if even
+if num_array.length % 2 == 0
    median = (num_array[even-1] + num_array[even]) / 2.0
  else
    median = num_array[even]
