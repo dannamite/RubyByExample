@@ -35,3 +35,7 @@ end
 
 
 puts "The hex number is 0x#{array.reverse.join}"
+
+##### NOTE: I'm told Ruby has a divmod method that can do both
+##### division and modulus in one go. Will see how that makes solving this
+##### easier and concise.
